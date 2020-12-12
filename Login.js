@@ -20,7 +20,7 @@ export default function Login({ navigation }) {
   //dialog
 
   if (fetch1 == 'true') {
-    fetch('http://172.20.10.14:9994/getJsonUser')
+    fetch('http://172.20.10.1:9994/getJsonUser')
       .then((response) => response.json())
       .then((json) => {
         setListU(json)
